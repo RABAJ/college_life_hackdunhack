@@ -37,10 +37,25 @@
               <a class="active nav-link" href="" data-toggle="pill" data-target="#tabone">Profile</a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link" data-toggle="pill" data-target="#tabtwo">Attendence</a>
+              <div class="btn-group pi-draggable btn-group-sm">
+                <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Mark Attendence </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" data-target="#tabtwo" data-toggle="pill" href="">Subject 1</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" data-target="#tabtwo" data-toggle="pill" href="">Subject 2</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" data-target="#tabtwo" data-toggle="pill" href="">Subject 3</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" data-target="#tabtwo" data-toggle="pill" href="">Subject 4</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" data-target="#tabtwo" data-toggle="pill" href="">Subject 5</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" data-target="#tabtwo" data-toggle="pill" href="">Subject 6</a>
+                </div>
+              </div>
             </li>
             <li class="nav-item">
-              <a class="btn  pi-draggable text-danger" href="blank.html">Logout </a>
+              <a href="blank.html" class="btn  pi-draggable text-danger">Logout </a>
             </li>
           </ul>
         </div>
@@ -48,40 +63,28 @@
           <div class="tab-content">
             <div class="tab-pane fade show active text-center" id="tabone" role="tabpanel">
               <img src="Circle.png" class="ronded-circle mx-auto" width="20%">
-              <h4 class="" id="student_name" contenteditable="true">student_name </h4>
-              <h5 class="" id="student_roll" contenteditable="true">student_roll </h5>
-              <h5 class="" id="student_branch" contenteditable="true">student_branch </h5>
+              <h4 class="" id="faculty_name">faculty_name </h4>
+              <h5 class="" id="faculty_branch">Department</h5>
             </div>
             <div class="tab-pane fade" id="tabtwo" role="tabpanel">
               <table class="table pi-draggable" draggable="true">
                 <thead>
                   <tr>
-                    <th>#</th>
-                    <th>Subject</th>
+                    <th>Roll no.</th>
                     <th>Attendence</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>1</td>
                     <td></td>
-                  </tr>
-                  <tr>
-                    <td>2</td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>3</td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>4</td>
-                  </tr>
-                  <tr>
-                    <td>5</td>
-                  </tr>
-                  <tr>
-                    <td>6</td>
+                    <td>
+                      <div class="form-check form-check-inline"> <label class="form-check-label">
+                        <input class="form-check-input" type="radio" value="option1" id="inlineRadio1" name="inlineRadioOptions"> Present
+                      </label> </div>
+                      <div class="form-check form-check-inline"> <label class="form-check-label">
+                        <input class="form-check-input" type="radio" value="option2" id="inlineRadio2" name="inlineRadioOptions"> Absent
+                      </label> </div>
+                    </td>
                   </tr>
                 </tbody>
               </table>
