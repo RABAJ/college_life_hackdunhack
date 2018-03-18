@@ -1,0 +1,91 @@
+{%extends 'base.html'%}
+
+{% block head%}
+<title>PROFILE</title>
+
+{% endblock %}
+
+
+{% block body%}
+
+<div class ="container" style="background-color: #baaa84">
+	<h1>Profile</h1>
+	<div class="col-md-6">
+	
+	<h3>Username: {{ user }}</h3>
+	<h3>First name: {{ user.first_name}}</h3>
+	<h3>Last name: {{ user.last_name}}</h3>
+	<h3>Email: {{ user.email}}</h3>
+	<h3>City:{{ user.user1.city }}</h3>
+	<h3>Phone:{{ user.user1.phone }}</h3>
+	
+	</div>
+	<div class="col-md-6">
+	{% if user.is_authenticated and user.user1.is_student %}
+	<h1>Attendance</h1>
+	<h2>{{ user.user1.attendance }}</h2>
+	{% endif %}
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+</div>
+	<div class="bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="p-4 col-md-4">
+          <h2 class="mb-4 text-secondary">CollageMitra</h2>
+          <p class="text-white">A best friend for all collage students, where students can check their live attendence and can get all useful resources.</p>
+        </div>
+        <div class="p-4 col-md-4">
+          <h2 class="mb-4 text-secondary">Mapsite</h2>
+          <ul class="list-unstyled">
+            <a href="#" class="text-white">Home</a>
+            <br>
+            <a href="#" class="text-white">Study Materials</a>
+            <br>
+            <a href="#" class="text-white">Question papers</a>
+            <br>
+            <a href="#" class="text-white">Events</a>
+          </ul>
+        </div>
+        <div class="p-4 col-md-4" id="contact">
+          <h2 class="mb-4">Contact</h2>
+          <p>
+            <a href="tel:+246 - 542 550 5462" class="text-white"><i class="fa d-inline mr-3 text-secondary fa-phone"></i>+</a>91 79877 01498</p>
+          <p>
+            <a href="mailto:info@pingendo.com" class="text-white"><i class="fa d-inline mr-3 text-secondary fa-envelope-o"></i>y</a>asshusonkar@gmail.com</p>
+          <p>
+            <a href="https://goo.gl/maps/AUq7b9W7yYJ2" class="text-white" target="_blank"><i class="fa d-inline mr-3 fa-map-marker text-secondary"></i>N</a>it Raipur (C.G), INDIA</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mt-3">
+          <p class="text-center text-white">© Copyright 2017 CollageMItra - All rights reserved. </p>
+        </div>
+      </div>
+    </div>
+  
+  {% endblock %}
+
+	
+	
+	
+	<!--<a  href="/pehla1/profile/edit/">edit</a> -->
+	

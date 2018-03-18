@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="container"  style="background-color: #baaa84">
+      {% for reso in resources %}
+
+        
+        {% if reso.description %}
+        
+
+          <a href="{{reso.document.url}}"> <h3>{{ reso.description }}</h3></a>
+        
+
+
+  {% endif %}
+  {%endfor%}
+  
+  </div>
+
+        
+
+{% endblock %}
