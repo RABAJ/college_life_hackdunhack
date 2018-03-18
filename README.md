@@ -32,5 +32,16 @@ Mobile:
 by using expo client.
 A url address is provided, copy that url to expo clients adress and you are good to go.
 
+
+# Team Name : Chota Bheem
+Participants: 
+1. Yashwant Kumar Sonkar - sonkaryasshu@gmail.com
+2. Paras Agarwal - pars1111111111@gmail.com
+3. Kshitij Surendra Ukey - k18.ukey@gmail.com
+
 #Followimg are some screenshots
 ![alt text](https://github.com/kshtiijsu/college_life_hackdunhack/blob/master/img/1.PNG)
+![alt text](https://github.com/kshtiijsu/college_life_hackdunhack/blob/master/img/2.PNG)
+![alt text](https://github.com/kshtiijsu/college_life_hackdunhack/blob/master/img/3.PNG)
+![alt text](https://github.com/kshtiijsu/college_life_hackdunhack/blob/master/img/4.PNG)
+
