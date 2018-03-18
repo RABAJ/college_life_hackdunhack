@@ -29,8 +29,8 @@ Run the web application locally,
 python manage.py runserver # 127.0.0.1:8000
 
 Mobile:
-  by using expo client.
-  A url address is provided, copy that url to expo clients adress and you are good to go.
+by using expo client.
+A url address is provided, copy that url to expo clients adress and you are good to go.
 
 #Followimg are some screenshots
 ![alt text](https://github.com/kshtiijsu/college_life_hackdunhack/blob/master/img/1.PNG)
