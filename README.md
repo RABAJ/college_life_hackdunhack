@@ -13,4 +13,4 @@ Mobile:
   A url address is provided, copy that url to expo clients adress and you are good to go.
 
 #Followimg are some screenshots
-<img src="img/1.png">
+![alt text](https://github.com/kshtiijsu/college_life_hackdunhack/blob/master/img/1.PNG)
