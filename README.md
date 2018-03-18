@@ -13,7 +13,4 @@ Mobile:
   A url address is provided, copy that url to expo clients adress and you are good to go.
 
 #Followimg are some screenshots
-<img src="img/1.png" width="50" height="50">
-<img src="img/2.png" width="50" height="50">
-<img src="img/3.png" width="50" height="50">
-<img src="img/4.png" width="50" height="50">
+<img src="img/1.png">
