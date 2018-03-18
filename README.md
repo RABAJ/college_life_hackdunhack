@@ -14,3 +14,7 @@ Mobile:
 
 #Followimg are some screenshots
 ![alt text](https://github.com/kshtiijsu/college_life_hackdunhack/blob/master/img/1.PNG)
+![alt text](https://github.com/kshtiijsu/college_life_hackdunhack/blob/master/img/2.PNG)
+![alt text](https://github.com/kshtiijsu/college_life_hackdunhack/blob/master/img/3.PNG)
+![alt text](https://github.com/kshtiijsu/college_life_hackdunhack/blob/master/img/4.PNG)
+
